@@ -2,7 +2,7 @@ def line(katz_deli)
   #at the beginning of the day, the deli is empty
   #so the queue should be represented by an empty array
   katz_deli = []
-  if katz_deli == nil
+  if katz_deli.empty? == true
     puts "The line is currently empty."
   end
   
@@ -15,5 +15,10 @@ def line(katz_deli)
 end
 take_a_number(Amanda, 1)
 
-def now_serving()
-
+def now_serving(katz_deli)
+ if katz_deli.empty? == true
+    puts "The line is currently empty."
+    elsif katz_deli.empty? == false
+    
+    
+  end
