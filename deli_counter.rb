@@ -8,6 +8,7 @@ def line(katz_deli)
   
   def take_a_number(katz_deli, element)
     attendees.each_with_length do |x,i|
-  puts "Hello,#{i}! You'll be assigned to room #{x}!"
+      
+ # puts "Hello,#{i}! You'll be assigned to room #{x}!"
   people_in_attendence += 1
 end
