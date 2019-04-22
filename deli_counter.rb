@@ -15,3 +15,5 @@ def line(katz_deli)
 end
 take_a_number(Amanda, 1)
 
+def now_serving()
+
